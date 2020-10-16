@@ -2,7 +2,10 @@ public class TerrapinCard {
   private double balance;
 
   public TerrapinCard(double balanceAtStart){
-    balance = startingBalance;
+    //balance = startingBalance;
+    balance = balanceAtStart;
+
+    //Hey Brandon, I think I found your error. Your formal parameter name wasnt being used. I commented out your code and added the correct code. Run your tests now. Btw, for the NSA internship is there a website for the rec. letter?
   }
 
   public String toString(){
@@ -32,8 +35,8 @@ public void loadMoney(double amount){
  
 }
 
-public double getBalance(){
-  return this.balance;
-}
+  public double getBalance(){
+    return this.balance;
+  }
 
 }
