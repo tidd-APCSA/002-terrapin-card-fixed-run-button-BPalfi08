@@ -31,7 +31,7 @@ public void loadMoney(double amount){
 }
 
 public getBalance(){
-  System.out.println(balance);
+  return balance;
 }
 
 }
