@@ -30,7 +30,7 @@ public void loadMoney(double amount){
     }
 }
 
-public getBalance(){
+public double getBalance(){
   return balance;
 }
 
