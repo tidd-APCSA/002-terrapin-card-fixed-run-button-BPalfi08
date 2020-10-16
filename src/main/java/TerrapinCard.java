@@ -6,7 +6,7 @@ public class TerrapinCard {
   }
 
   public String toString(){
-    return "The Card has " + balance + " dollars";
+    return "The card has " + balance + " dollars";
   }
 
   public void payEconomical(){
