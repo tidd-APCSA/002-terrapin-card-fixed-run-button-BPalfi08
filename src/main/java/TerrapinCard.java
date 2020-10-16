@@ -22,12 +22,16 @@ public class TerrapinCard {
   } 
 
 public void loadMoney(double amount){
-    balance+=amount;
+    if(amount>0){
+      balance+=amount;
+    }
     if(balance>150.0){
       balance = 150.0;
     }
 }
 
-
+public void getBalance(){
+  System.out.println(balance);
+}
 
 }
