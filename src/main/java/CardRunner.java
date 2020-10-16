@@ -23,8 +23,6 @@ public class CardRunner {
     //Print 3rd total
     System.out.println(cardBilly);
     System.out.println(cardBrian);
-    //Testing getter method
-    cardBilly.getBalance();
-    cardBrian.getBalance();
+
   } 
 }
