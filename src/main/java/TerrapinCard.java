@@ -30,7 +30,7 @@ public void loadMoney(double amount){
     }
 }
 
-public void getBalance(){
+public getBalance(){
   System.out.println(balance);
 }
 
