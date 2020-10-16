@@ -22,9 +22,14 @@ public class TerrapinCard {
   } 
 
 public void loadMoney(double amount){
-  if(balance + amount>150){
-  balance+=0;
+  if(balance + amount > 150){
+    balance+=0;
   }
+  
+  if(amount < 0){
+    balance += 0;
+  }
+  
   if(balance + amount <= 150 && balance>0){
     balance+=amount;
   }
