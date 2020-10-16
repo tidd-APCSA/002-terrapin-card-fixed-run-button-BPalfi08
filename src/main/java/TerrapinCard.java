@@ -1,7 +1,7 @@
 public class TerrapinCard {
   private double balance;
 
-  public TerrapinCard(double startingBalance){
+  public TerrapinCard(double balanceAtStart){
     balance = startingBalance;
   }
 
@@ -31,7 +31,7 @@ public void loadMoney(double amount){
 }
 
 public double getBalance(){
-  return balance;
+  return this.balance;
 }
 
 }
